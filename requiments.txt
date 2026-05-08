@@ -1,0 +1,11 @@
+streamlit
+faiss-cpu
+sentence-transformers
+langchain==0.1.16
+langchain-community==0.0.32
+langchain-groq
+pypdf
+PyMuPDF
+easyocr
+opencv-python-headless
+pillow
