@@ -76,8 +76,8 @@ def build_qa_chain(vectorstore):
     return qa_chain
 
 def main():
-    st.set_page_config(page_title="OCR + Medical RAG Chatbot", layout="centered")
-    st.title("📄 OCR + Medical Chatbot")
+    st.set_page_config(page_title="Med-Eye", layout="centered")
+    st.title("Med-Eye")
     st.write("Upload an image or PDF, then ask questions about it.")
 
     uploaded_file = st.file_uploader("Upload Image or PDF", type=["png", "jpg", "jpeg", "pdf"])
